@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Window</title>
+</head>
+<body>
+    <input type="button" id="open" value="打开窗口">
+    <input type="button" id="close" value="关闭窗口">
+    <br>
+    <input type="button" id="close1" value="关闭循环定时器">
+    <script>
+        // window.alert("aaa");
+        // alert("aaa");
+
+        //弹出一个确认框,返回一个Boolean值
+        // var flag = window.confirm("你真的要退出码?");
+        // if (flag){
+        //     alert("谢谢");
+        // }else {
+        //     alert("啊这");
+        // }
+        //
+
+        //弹出一个输入框,并返回输入的字符串
+        // var s = prompt("请输入用户名:");
+        // alert(s);
+
+        var elementById = document.getElementById("open");
+        var newWindow;
+        elementById.onclick = function () {
+            newWindow = open("https://www.baidu.com");
+        }
+
+        var elementById1 = document.getElementById("close");
+        elementById1.onclick = function () {
+            newWindow.close();
+        }
+
+        //单次延时
+        //setTimeout(执行方法,毫秒值);
+        // setTimeout(function () {
+        //     alert("这是延时3秒的效果");
+        // },3000);
+
+        // 循环定时器
+        // setInterval(执行方法,毫秒值);
+        // 返回一个对象,可以通过对象取消效果
+        var interval = setInterval(function () {
+            alert("这是循环定时器");
+        },3000);
+
+        var close1 = document.getElementById("close1");
+        close1.onclick = function () {
+            clearInterval(interval);
+        };
+
+
+    </script>
+<!--    <img src="../../img/on.gif" alt="错误!">-->
+</body>
+</html>

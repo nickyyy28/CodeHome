@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>动态表格</title>
+
+    <style>
+        table{
+            border: 1px solid;
+            margin: auto;
+            width: 500px;
+        }
+
+        td,th{
+            text-align: center;
+            border: 1px solid;
+        }
+        div{
+            text-align: center;
+            margin: 50px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div>
+        <input type="text" id="id" placeholder="请输入编号">
+        <input type="text" id="name"  placeholder="请输入姓名">
+        <input type="text" id="gender"  placeholder="请输入性别">
+        <input type="button" value="添加" id="btn_add">
+
+    </div>
+
+
+    <table>
+        <caption>学生信息表</caption>
+        <tr>
+            <th>编号</th>
+            <th>姓名</th>
+            <th>性别</th>
+            <th>操作</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>令狐冲</td>
+            <td>男</td>
+            <td><a href="javascript:void(0);" onclick="delTr(this)">删除</a></td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>任我行</td>
+            <td>男</td>
+            <td><a href="javascript:void(0);" onclick="delTr(this)">删除</a></td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>岳不群</td>
+            <td>?</td>
+            <td><a href="javascript:void(0);" onclick="delTr(this)">删除</a></td>
+        </tr>
+
+
+    </table>
+
+    <script>
+        var btn_add = document.getElementById("btn_add");
+
+        //麻烦的操作
+
+        // btn_add.onclick = function () {
+        //     var id = document.getElementById("id").value;
+        //     var name = document.getElementById("name").value;
+        //     var gender = document.getElementById("gender").value;
+        //
+        //     //表单校验
+        //     if (document.getElementById("id").value.length ==0 || document.getElementById("name").value.length==0 ||
+        //         document.getElementById("id").value.length == 0){
+        //         alert("请输入完整数据!");
+        //     } else {
+        //         var tr = document.createElement("tr");
+        //         var td1 = document.createElement("td");
+        //         var td2 = document.createElement("td");
+        //         var td3 = document.createElement("td");
+        //         var td4 = document.createElement("td");
+        //
+        //         var a = document.createElement("a");
+        //         a.setAttribute("href","javascript:void(0);");
+        //         a.setAttribute("onclick","delTr(this)");
+        //         td4.appendChild(a);
+        //
+        //         td1.innerHTML = id;
+        //         td2.innerHTML = name;
+        //         td3.innerHTML = gender;
+        //         a.innerHTML = "删除";
+        //
+        //         tr.appendChild(td1);
+        //         tr.appendChild(td2);
+        //         tr.appendChild(td3);
+        //         tr.appendChild(td4);
+        //         var table = document.getElementsByTagName("table")[0];
+        //         table.appendChild(tr);
+        //         document.getElementById("id").value = "";
+        //         document.getElementById("name").value = "";
+        //         document.getElementById("gender").value = "";
+        //     }
+        //
+        // }
+
+
+        //使用innerHTML较为简单
+        btn_add.onclick = function () {
+            var id = document.getElementById("id").value;
+            var name = document.getElementById("name").value;
+            var gender = document.getElementById("gender").value;
+
+            if (document.getElementById("id").value.length ==0 || document.getElementById("name").value.length==0 ||
+                        document.getElementById("id").value.length == 0){
+                alert("请输入完整数据");
+            } else {
+                var table= document.getElementsByTagName("table")[0];
+                table.innerHTML += "<tr>\n" +
+                    "<td>"+id+"</td>\n" +
+                    " <td>"+name+"</td>\n" +
+                    " <td>"+gender+"</td>\n" +
+                    "<td><a href=\"javascript:void(0);\" onclick=\"delTr(this)\">删除</a></td>\n" +
+                    "</tr>";
+                    document.getElementById("id").value = "";
+                    document.getElementById("name").value = "";
+                    document.getElementById("gender").value = "";
+            }
+
+
+        }
+
+        function delTr(obj) {
+            var tr = obj.parentNode.parentNode;
+            var table = obj.parentNode.parentNode.parentNode;
+            table.removeChild(tr);
+        }
+    </script>
+
+</body>
+</html>

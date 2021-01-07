@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>自动跳转首页</title>
+    <style>
+        #p{
+            text-align: center;
+        }
+        #p2{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p id="p">还有<b id="p2">5</b>秒跳转至首页</p>
+    <script>
+        var j = 4;
+        var elementById = document.getElementById("p2");
+        var interval = setInterval(change,1000);
+
+        function change() {
+            elementById.innerHTML = j;
+            j--;
+            var newwindow;
+            if (j == -1){
+                clearInterval(interval);
+                newwindow = open("https://www.baidu.com");
+            }
+            setTimeout(function () {
+                newwindow.close();
+            },5000);
+        }
+    </script>
+</body>
+</html>

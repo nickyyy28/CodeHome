@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16838b60-7937-4724-9b07-93143060a130" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TestinterFace" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1f4gZ4eujQCLCiZ95gYmLVth0DP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\30929\IdeaProjects\TestinterFace\src\Test18" />
+      <recent name="C:\Users\30929\IdeaProjects\TestinterFace\src\Test17" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Cal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test33.Junit.Calculator.Cal.Cal" />
+      <module name="TestinterFace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test33.Junit.Calculator.Cal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test15ThreadAndRunnable.Main2" />
+      <module name="TestinterFace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test15ThreadAndRunnable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bijiben.Test" />
+      <module name="TestinterFace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bijiben.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSellTickets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test16Thread.TestSellTickets" />
+      <module name="TestinterFace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test16Thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test32StreamAndMethodReference.Zi" />
+      <module name="TestinterFace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test32StreamAndMethodReference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestSellTickets" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Cal" />
+        <item itemvalue="Application.Zi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16838b60-7937-4724-9b07-93143060a130" name="Default Changelist" comment="" />
+      <created>1595482831683</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595482831683</updated>
+      <workItem from="1595482839296" duration="102000" />
+      <workItem from="1595483046379" duration="62000" />
+      <workItem from="1595512416080" duration="1035000" />
+      <workItem from="1595637475146" duration="10291000" />
+      <workItem from="1595672573808" duration="93000" />
+      <workItem from="1595689838295" duration="2421000" />
+      <workItem from="1595745019078" duration="4372000" />
+      <workItem from="1595764384259" duration="89000" />
+      <workItem from="1595804535141" duration="8534000" />
+      <workItem from="1595845982346" duration="2906000" />
+      <workItem from="1595900758664" duration="2795000" />
+      <workItem from="1595906400540" duration="134000" />
+      <workItem from="1595918714533" duration="10000" />
+      <workItem from="1595920664981" duration="15819000" />
+      <workItem from="1596062096999" duration="4441000" />
+      <workItem from="1596161508705" duration="2716000" />
+      <workItem from="1596168133758" duration="183000" />
+      <workItem from="1596168329032" duration="226000" />
+      <workItem from="1596168572440" duration="15713000" />
+      <workItem from="1596320115527" duration="27469000" />
+      <workItem from="1596457992889" duration="2049000" />
+      <workItem from="1596506729932" duration="5131000" />
+      <workItem from="1596544158273" duration="11101000" />
+      <workItem from="1596636408113" duration="7044000" />
+      <workItem from="1596683206163" duration="2143000" />
+      <workItem from="1596718437614" duration="4679000" />
+      <workItem from="1596779964944" duration="3000" />
+      <workItem from="1596780560318" duration="8000" />
+      <workItem from="1596856332105" duration="1998000" />
+      <workItem from="1596858343913" duration="11425000" />
+      <workItem from="1596937051572" duration="4185000" />
+      <workItem from="1596960330051" duration="4530000" />
+      <workItem from="1597045245666" duration="8642000" />
+      <workItem from="1597107295421" duration="10861000" />
+      <workItem from="1597147336637" duration="20756000" />
+      <workItem from="1597240317878" duration="3490000" />
+      <workItem from="1597285657344" duration="14713000" />
+      <workItem from="1597324464586" duration="2111000" />
+      <workItem from="1597366729313" duration="13444000" />
+      <workItem from="1597453004012" duration="7123000" />
+      <workItem from="1597482892407" duration="5733000" />
+      <workItem from="1597496447865" duration="15000" />
+      <workItem from="1597503438296" duration="22000" />
+      <workItem from="1597545754130" duration="618000" />
+      <workItem from="1597891376975" duration="422000" />
+      <workItem from="1598147398389" duration="613000" />
+      <workItem from="1598416964032" duration="20000" />
+      <workItem from="1598797167600" duration="88000" />
+      <workItem from="1600351237986" duration="835000" />
+      <workItem from="1600945382177" duration="2475000" />
+      <workItem from="1601131266669" duration="1104000" />
+      <workItem from="1601301562223" duration="7000" />
+      <workItem from="1604315438726" duration="1711000" />
+      <workItem from="1604400319810" duration="34000" />
+      <workItem from="1609256984107" duration="80000" />
+      <workItem from="1609404040517" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="553" y="307" width="439" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604318545765">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="553" y="307" width="439" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1604318545765" />
+    <state x="543" y="158" key="FileChooserDialogImpl" timestamp="1609257061807">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="543" y="158" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1609257061807" />
+    <state width="1537" height="265" key="GridCell.Tab.0.bottom" timestamp="1601165235788">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1537" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1601165235788" />
+    <state width="1537" height="265" key="GridCell.Tab.0.center" timestamp="1601165235788">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1537" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1601165235788" />
+    <state width="1537" height="265" key="GridCell.Tab.0.left" timestamp="1601165235788">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1537" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1601165235788" />
+    <state width="1537" height="265" key="GridCell.Tab.0.right" timestamp="1601165235788">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1537" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1601165235788" />
+    <state x="310" y="0" key="SettingsEditor" timestamp="1600945495886">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="310" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1600945495886" />
+  </component>
+</project>

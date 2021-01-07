@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+
+<users>
+    <user>
+        <name>zhangsan</name>
+        <age>23</age>
+        <gender>male</gender>
+    </user>
+    <user>
+        <name>lisi</name>
+        <age>20</age>
+        <gender>female</gender>
+    </user>
+</users>

@@ -1,0 +1,10 @@
+div方法出异常了!
+异常的名称:ArithmeticException
+异常的原因:/ by zero
+-----------------------------
+ppp方法出异常了!
+异常的名称:ArrayIndexOutOfBoundsException
+异常的原因:Index 5 out of bounds for length 5
+-----------------------------
+
+本次测试一共出现2次异常

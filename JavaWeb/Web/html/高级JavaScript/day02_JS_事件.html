@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>事件</title>
+    <style>
+        #light2{
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<!--    <img src="../../img/off.gif" id="light" onclick="alertSomething()">-->
+    <img src="../../img/off.gif" id="light2">
+    <script>
+        function alertSomething() {
+            alert("我被点了");
+        }
+
+        function alertSomething2() {
+            alert("怎么又点我");
+        }
+
+        var count = 0;
+
+        function changeImage() {
+            if (count %2 == 0){
+                light2.src="../../img/on.gif";
+            }else {
+                light2.src="../../img/off.gif";
+            }
+            count++;
+        }
+        var light2 = document.getElementById("light2");
+
+        //单击图片更换
+        // light2.onclick = changeImage;
+
+        //双击图片更换
+        // light2.ondblclick = changeImage;
+        light2.ondblclick = function () {
+            if (count %2 == 0){
+                light2.src="../../img/on.gif";
+            }else {
+                light2.src="../../img/off.gif";
+            }
+            count++;
+        };
+
+        //鼠标移上/移开更换图片
+        // light2.onmouseover = changeImage;
+        // light2.onmouseout = changeImage;
+    </script>
+</body>
+</html>

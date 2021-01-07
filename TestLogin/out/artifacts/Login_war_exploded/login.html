@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function () {
+            var login = document.getElementById("login");
+            login.onclick = function () {
+
+            }
+        }
+    </script>
+
+    <style>
+        #form{
+            align-items: center;
+        }
+        #pic{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <form action="loginServlet" method="post" id="form">
+        <label for="name">用户名</label><input type="text" id="name" placeholder="请输入用户名" name="username"><br>
+        <label for="password">密码</label> <input type="password" id="password" placeholder="请输入密码" name="password"><br>
+        <label for="verificationCode"><input type="text" id="verificationCode" placeholder="请输入验证码" name="verificationCode">
+        </label>
+        <img src="/login/verification" id="pic">
+        <br>
+        <input type="submit" value="登录" id="login">
+    </form>
+</body>
+</html>

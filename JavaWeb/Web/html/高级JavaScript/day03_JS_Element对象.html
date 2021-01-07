@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Element对象</title>
+</head>
+<body>
+    <a target="_blank">点我试试</a>
+    <input type="button" id="add_attribute" value="添加属性">
+    <input type="button" id="remove_attribute" value="删除属性">
+    <script>
+        var element_a = window.document.getElementsByTagName("a")[0];
+        var add_attribute = document.getElementById("add_attribute");
+        add_attribute.onclick = function () {
+            element_a.setAttribute("href","https://www.baidu.com");
+        }
+        var remove_attribute = document.getElementById("remove_attribute");
+        remove_attribute.onclick = function () {
+            element_a.removeAttribute("href");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Node</title>
+    <style>
+        div{
+            border: 1px red solid;
+        }
+        #div1{
+            width: 100px;
+            height: 100px;
+        }
+
+        #div2{
+            width: 50px;
+            height: 50px;
+        }
+
+        #div3{
+            width: 50px;
+            height: 50px;
+        }
+
+        #delete{
+            text: center;
+            background: #fffb54;
+            border: 1px solid;
+        }
+        #add{
+            text: center;
+            background: #fffb54;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">div1
+        <div id="div2">div2</div>
+    </div>
+<!--    <div>div2</div>-->
+<!--    <div>div3</div>-->
+<!--    <input id="delete" value="删除文本" type="button">-->
+    <a href="javascript:void(0)" id="delete">删除子结点</a>
+    <br>
+    <a href="javascript:void(0)" id="add">添加子结点</a>
+
+    <script>
+        var del = document.getElementById("delete");
+        var add = document.getElementById("add");
+        del.onclick = function () {
+            var div1 = document.getElementById("div1");
+            var div2 = document.getElementById("div2");
+            //删除子结点
+            div1.removeChild(div2);
+        }
+        add.onclick = function () {
+            var div1 = document.getElementById("div1");
+            //给div2添加结点
+            var div3 = document.createElement("div3");
+            div3.setAttribute("id","div3");
+            div3.innerHTML = "div3";
+            div1.appendChild(div3);
+        }
+    </script>
+</body>
+</html>

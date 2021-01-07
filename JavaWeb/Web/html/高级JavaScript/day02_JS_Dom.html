@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="n">
+<head>
+    <meta charset="UTF-8">
+    <title>Dom</title>
+</head>
+<body>
+    <img src="../../img/off.gif" id="light">
+    <h1 id="ali">悔创阿里杰克马</h1>
+    <script>
+        //指定id获取对象
+        var elementById = document.getElementById("light");
+        alert("我要换图片了!");
+        elementById.src="../../img/on.gif"; 
+
+        var ali = document.getElementById("ali");
+        ali.innerHTML = "不知妻美刘强东";
+    </script>
+</body>
+</html>

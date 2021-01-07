@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        //方法创建方式1
+        var fun1 = new Function("a","b","alert(a);");
+        fun1(1,2);
+
+        //方法创建方式2
+        function fun2(a,b) {
+            alert(a);
+        }
+        fun2(1,2);
+
+        //方法创建方式3
+        var fun3 = function (a,b) {
+            alert(a);
+        }
+        fun3(1,2);
+    </script>
+</body>
+</html>

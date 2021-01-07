@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>常见事件</title>
+
+</head>
+<body>
+    <input id="text" type="text" placeholder="输入框">
+    <script>
+        //1.失去焦点事件
+        // var text = document.getElementById("text");
+        // text.onblur = function () {
+        //     alert("失去焦点了");
+        // }
+
+        //2.加载完成事件
+        // window.onblur =function () {
+        //     var text = document.getElementById("text");
+        //     text.onblur = function () {
+        //         alert("失去焦点了");
+        //     }
+        // }
+
+        //键盘事件
+        var text = document.getElementById("text");
+        text.onkeydown = function (e) {
+            if (e.keyCode == 13){
+                alert("回车");
+            }
+        }
+    </script>
+</body>
+</html>

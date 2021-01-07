@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+    <style>
+        .mouseover{
+            background-color: pink;
+        }
+
+        .mouseout{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>测试</td>
+        </tr>
+    </table>
+
+    <script>
+        var trs = document.getElementsByTagName("tr");
+        // alert(trs.length);
+        for (var i = 0 ; i < trs.length ; i++){
+            trs[i].onmouseover = function () {
+                trs[i].className = "mouseover";
+                // alert(trs[i]);
+            }
+
+            trs[i].onmouseout = function () {
+                trs[i].className = "mouseout";
+            }
+        }
+    </script>
+</body>
+</html>

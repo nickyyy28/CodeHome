@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background: url(./img/register_bg.png) no-repeat center;
+        }
+        .total{
+            border: 10px #BDBDBD solid;
+            background-color: #FFFFFF;
+            width: 900px;
+            height: 500px;
+            margin: auto;
+            margin-top: 20px;
+        }
+        .left-1{
+            color: #FE9A2E;
+            font-size: 20px;
+        }
+        .left-2{
+            color: #A4A4A4;
+            font-size: 20px;
+        }
+        .left{
+            float: left;
+            margin-left: 15px;
+            margin-top: 15px;
+        }
+        .center{
+            float: left;
+            /* border: solid 5px red; */
+            width: 360px;
+            height: 480px;
+            margin-left: 60px;
+            margin-top: 0px;
+        }
+        .right{
+            float: right;
+            margin-right: 15px;
+            margin-top: 15px;
+        }
+        div a{
+            color: pink;
+        }
+        .td-left{
+            width: 100px;
+            text-align: right;
+            height: 45px;
+        }
+        .td-right{
+            padding-left: 15px;
+        }
+        .text1{
+            width: 251px;
+            height: 32px;
+            border: #918b8b solid 1px;
+            border-radius: 5px;
+        }
+        .text2{
+            width: 120px;
+            height: 32px;
+            border: #918b8b solid 1px;
+            border-radius: 5px;
+        }
+        /* td{
+            border:  3px red solid;
+        } */
+        #pic{
+            height: 32px;
+            vertical-align: middle;
+        }
+        #register{
+            width: 150px;
+            height: 40px;
+            background-color: #FE9A2E;
+        }
+    </style>
+    <script>
+
+        window.onload = function () {
+            var element = document.getElementById("pic");
+            element.onclick = function () {
+                var time = new Date().getTime();
+                element.src = "/login/verification?"+time;
+            }
+
+            var element1 = document.getElementById("cantsee");
+            element1.onclick = function () {
+                var time = new Date().getTime();
+                element.src = "/login/verification?"+time;
+            }
+
+
+            // function changeIMG(a) {
+            //     a.src = "/login/verification";
+            // }
+        }
+
+
+    </script>
+</head>
+<body>
+    <div class="total">
+        <div class="left">
+            <p class="left-1">新用户注册</p>
+            <p class="left-2">USER REGISTER</p>
+        </div>
+
+        <div class="center">
+            <form action="#" method="POST">
+                <table >
+                    <tr>
+                        <td class="td-left"> <label for="username">用户名</label></td>
+                        <td class="td-right"><input type="text" name="username" id="username" placeholder="   请输入用户名" class="text1"></td>
+                    </tr>
+                    <tr>
+                        <td class="td-left"><label for="password">密码</label></td>
+                        <td class="td-right"><input type="password" name="password" id="password" placeholder="   请输入密码" class="text1"></td>
+                    </tr>
+                    <tr>
+                        <td class="td-left"><label for="email">Email</label></td>
+                        <td class="td-right"><input type="email" name="email" id="email" placeholder="   请输入邮箱地址" class="text1"></td>
+                    </tr>
+                    <tr>
+                        <td class="td-left"><label for="realname">姓名</label></td>
+                        <td class="td-right"><input type="text" name="realname" id="realname" placeholder="   请输入姓名" class="text1"></td>
+                    </tr>
+                    <tr>
+                        <td class="td-left"><label for="phonenumber">手机号</label></td>
+                        <td class="td-right"><input type="phonenumber" name="phonenumber" id="phonenumber" class="text1" placeholder="   请输入手机号"></td>
+                    </tr>
+                    <tr>
+                        <td class="td-left">性别</td>
+                        <td class="td-right"><input type="radio" name="gender" value="male" checked> 男
+                            <input type="radio" name="gender" value="male"> 女
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td-left">出生日期</td>
+                        <td class="td-right"><input type="date" name="birthday"></td>
+                    </tr>
+                    <tr>
+                        <td class="td-left">验证码</td>
+                        <td class="td-right"><input type="text" class="text2" name="code"><img src="/login/verification" id="pic"></td>
+                        <td><a id="cantsee" href="#">看不清?点击重试</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center" ><input type="submit" id="register" value="注册"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+        <div class="right">
+            已有账号? <a href="#">立刻登录</a>
+        </div>
+    </div>
+</body>
+</html>

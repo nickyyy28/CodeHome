@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>RegExp</title>
+</head>
+<body>
+    <script>
+        //正则表达式创建方式1
+        // var reg = new RegExp("正则表达式");
+
+        //正则表达式创建方式2
+        // var reg = /正则表达式/;
+
+        var reg = new RegExp("^\\w{6,12}$");
+        var reg2 = /^\w{6,12}$/;
+        // alert(reg);
+        // alert(reg2);
+
+        //方法
+        var a = reg.test("dadadaaf");
+        document.write(a+"<br>");
+        var b = reg2.test("dadadaaf");
+        document.write(b);
+    </script>
+</body>
+</html>
